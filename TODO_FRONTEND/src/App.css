@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create_input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  margin: 10px;
+}
+
+.create_button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-card {
+  background: #f9fafc;
+  width: 75%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border-left: 5px solid #4f46e5;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.todo-card h3 {
+  margin: 0;
+}
+
+.todo-card p {
+  margin: 5px 0;
+  color: #555;
+}
